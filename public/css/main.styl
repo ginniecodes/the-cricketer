@@ -1,0 +1,145 @@
+black = #111
+gray = #DDD
+black2 = #232323
+white = #FFF
+amber = #FFB300
+yellow = #FFDC00
+blue = #0074D9
+orange = #FF851B
+
+initialize()
+  margin: arguments
+  padding: arguments
+
+lineargr()
+  background: -webkit-linear-gradient(arguments)
+  background: -moz-linear-gradient(arguments)
+  background: -ms-linear-gradient(arguments)
+  background: -o-linear-gradient(arguments)
+  background: linear-gradient(arguments)
+
+transform-it()
+  -webkit-transform: arguments
+  -moz-transform: arguments
+  -o-transform: arguments
+  transform: arguments
+
+@font-face
+  font-family FalkinSerif
+  font-style normal, italics
+  src url(fonts/falkin-serif-personal/FalkinSerifPERSONAL.ttf)
+
+@font-face
+  font-family Lato
+  font-style normal
+  src url(fonts/Lato2OFL/Lato-Regular.ttf)
+
+html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,button,fieldset,p,blockquote,table,th,td,img,form,select,article,section,header,aside,nav,footer
+  initialize: 0
+  border: 0
+
+body, section, article, div, footer,aside
+  font-size: 1.23rem
+  font-family: Lato, sans
+  color: black
+  text-align: start
+
+body, html
+  min-height: 100vh
+  max-width: 100vw
+  background-color: white
+
+header,h1,h2,h3,h4,h5,h6
+  color: black2
+  font-family: FalkinSerif, serif
+  text-align: center
+
+header
+  initialize: 5%
+
+h1
+  font-size: 3.8rem
+
+  span
+    font-family: serif
+    font-weight: 800
+    text-transform: uppercase
+    font-style: italic
+
+h2
+  font-size: 3rem
+
+.gray
+  lineargr: #CCC, gray, #CCC
+
+
+section
+  display: block
+  min-height: 100vh
+  width: 100%
+
+
+article
+  margin: 1.4rem
+  text-align: justify
+
+article, aside, footer
+  padding: 1.3em
+
+pre, code
+  font-family: monospace
+
+a
+  text-decoration: none
+  color: orange
+
+a:hover
+  color: blue
+
+article.stats
+  background-color: white
+
+p, blockquote
+  margin: 0px 10px 0px 10px
+  line-height: 2.25em
+  text-indent: 5%
+  word-spacing: 0.23em
+
+ul, ol
+  list-style: none
+  position: relative
+  font.size: 0.95rem
+  
+  li
+    list-style: none
+    color: blue
+  
+  li:hover
+    cursor: pointer
+    color: orange
+
+@media (min-width: 700px)
+  .half
+    margin: 5px
+    max-width: 45%
+    position: relative
+    display: inline-block
+    z-index: 20
+
+  section article.stats
+    position: absolute
+    right: 0%
+  
+  .half table
+    float: right
+
+table
+  color: black2
+  
+  td, th
+    padding: 0.5em
+
+footer
+  text-align: center
+  font-size: 1rem
+

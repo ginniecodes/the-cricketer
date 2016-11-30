@@ -1,0 +1,37 @@
+{
+  "name": "the-cricketer",
+  "version": "1.0.0",
+  "description": "Data about the cricketer Sachin Tendulkar",
+  "main": "server.js",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "d3": "^4.4.0",
+    "express": "^4.14.0",
+    "request": "^2.79.0"
+  },
+  "devDependencies": {
+    "babel-polyfill": "^6.16.0",
+    "babel-preset-latest": "^6.16.0",
+    "babelify": "^7.3.0",
+    "chart.js": "^2.4.0"
+  },
+  "scripts": {
+    "start": "node --harmony server.js",
+    "test": "npm run test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhia/the-cricketer.git"
+  },
+  "keywords": [
+    "cricket",
+    "nodejs",
+    "javascript"
+  ],
+  "author": "Jhinel Arcaya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jhia/the-cricketer/issues"
+  },
+  "homepage": "https://github.com/jhia/the-cricketer#readme"
+}
