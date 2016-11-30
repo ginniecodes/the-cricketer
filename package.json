@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jhia/the-cricketer.git"
+    "url": "https://github.com/jhia/the-cricketer.git"
   },
   "keywords": [
     "cricket",
