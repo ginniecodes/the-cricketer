@@ -16,7 +16,7 @@
     "chart.js": "^2.4.0"
   },
   "scripts": {
-    "start": "node --harmony server.js",
+    "start": "node --harmony server.js"
   },
   "repository": {
     "type": "git",
