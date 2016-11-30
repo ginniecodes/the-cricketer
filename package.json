@@ -17,7 +17,6 @@
   },
   "scripts": {
     "start": "node --harmony server.js",
-    "test": "npm run test.js"
   },
   "repository": {
     "type": "git",
