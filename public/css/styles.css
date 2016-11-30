@@ -1,12 +1,12 @@
 @font-face {
   font-family: FalkinSerif;
   font-style: normal, italics;
-  src: url("fonts/falkin-serif-personal/FalkinSerifPERSONAL.ttf");
+  src: url("/fonts/falkin-serif-personal/FalkinSerifPERSONAL.ttf");
 }
 @font-face {
   font-family: Lato;
   font-style: normal;
-  src: url("fonts/Lato2OFL/Lato-Regular.ttf");
+  src: url("/fonts/Lato2OFL/Lato-Regular.ttf");
 }
 html,
 body,
